@@ -1,0 +1,66 @@
+#include <stdio.h> //para que sirva printf
+    #include <math.h>//para mod
+    double stack[1320000]; //stack
+    double heap[1320000]; //heap
+    int p; //Puntero p
+    int h; //Puntero h 
+    
+    double t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23,t24,t25,t26,t27,t28,t29,t30,t31,t32,t33,t34,t35,t36,t37,t38,t39,t40,t41,t42,t43,t44;
+
+
+
+void main () {
+	t44 = 1 ;
+	printf("%f", t44);
+	printf("%c",(char)10); //salto de linea 
+	
+	//////*************************************   REGLAS OPTIMIZACION
+//regla 1
+
+//regla 2
+ if(t4>=10) goto L3;
+ goto L4;
+ L3:
+ printf("%c",(char)10); //salto de linea 
+ 
+ L4:
+ 
+
+//regla 5
+t50 = t51;
+t51 = t50;
+
+//regla 6
+t52 = t52 + 0;
+
+//regla 7
+t53 = t53 - 0;
+
+//regla 8
+t54 = t54 * 1;
+
+//regla 9
+t57 = t57 / 1;
+
+//regla 10
+t58 = t59 + 0;
+
+//regla 11
+t60 = t61 - 0;
+
+//regla 12
+t62 = t63 * 1;
+
+//regla 13
+t64 = t65 / 1;
+
+//regla 14 
+t66 = t67 * 2;
+
+//regla 15
+t68 = t69 * 0;
+
+//regla 16
+t70 = 0 / t71;
+	return;
+ }
