@@ -83,6 +83,13 @@ let val3 : number = "Error"; //Si no reporta el error 0.5 en declaracion
 val1 = 7 - (5 + 10 * (20 / 5 - 2 + 4 * (5 + 2 * 3)) - 8 * 3 ** 2) + 50 * (6 * 2); //214
 val2 = 2 ** 4 - 9 * (8 - 6 * (3 ** 2 - 6 * 5 - 7 * (9 + 7 ** 3) + 10) - 5 ) + 8 * (36 / 6 - 5 * ( 2 * 3)); //-133853
 val3 = (8 ** 3 * 36 ** 3 - 2 ** 5 + 2 ** 3 + 16 ** 0 + 2) / 3; //-7962617 
+
+console.log("---valores---");
+console.log(val1);
+console.log(val2);
+console.log(val3);
+console.log("------------");
+
 if((val1 - val2 + val3)*-1 == -8096684){
     aritmeticas = aritmeticas++ + 5;
 }
